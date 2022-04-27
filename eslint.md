@@ -24,7 +24,7 @@ yarn add --dev eslint-config-airbnb prettier eslint-config-prettier eslint-plugi
 airbnb는 여러분이 아는 그 회사가 맞다. 이 회사의 디자인 패턴이 가장 협업에 적합하다는 평가를 받아 사용하게 되었다. 다음은 react 매인 폴더에 prettier.js라는 파일을 만들어줄 것이다.  
 
 ```js
-//prettier.js
+//.prettierrc.js
 module.exports = {
   arrowParens: 'avoid', // 화살표 함수 괄호 사용 방식
   bracketSpacing: false, // 객체 리터럴에서 괄호에 공백 삽입 여부
@@ -62,7 +62,7 @@ module.exports = {
 다음 eslint 설정을 해준다  eslint.js를 메인에 설치해준다.  
 
 ```js
-//eslint.js
+//.eslintrc.js
 module.exports = {
   env: {
     browser: true,
